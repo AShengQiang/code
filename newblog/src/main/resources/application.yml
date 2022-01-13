@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+    mode: HTML
+    cache: false
+mybatis:
+  configuration:
+    #开启驼峰命名
+    map-underscore-to-camel-case: true
+
+
+
+comment.avatar: /images/user1.jpg
+
+#配置日志文件
+logging:
+  level:
+    com.jsnu.dao: debug
+  config: classpath:logback-spring.xml
