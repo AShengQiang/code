@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shicifang-qa" />
+        <module name="shicifang-friend" />
+        <module name="shicifang-friend-iterface" />
+        <module name="shicifang-common" />
+        <module name="shicifang-gateway-web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
